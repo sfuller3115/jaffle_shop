@@ -1,0 +1,10 @@
+{
+  // Use the project's venv Python interpreter (absolute path to avoid expansion issues)
+  "python.defaultInterpreterPath": "/Users/sfuller/Projects/dbtLabs/jaffle_shop/.venv/bin/python",
+
+  // Point the dbt extension to the dbt binary in the project venv (absolute path)
+  "dbt.commandPath": "/Users/sfuller/Projects/dbtLabs/jaffle_shop/.venv/bin/dbt",
+
+  // Optional: set the profiles dir to the user's .dbt (absolute path)
+  "dbt.profilesDir": "/Users/sfuller/.dbt"
+}
